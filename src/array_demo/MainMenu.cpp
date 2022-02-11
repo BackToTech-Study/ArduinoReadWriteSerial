@@ -16,7 +16,7 @@ int getMainMenuSelection() {
   
   do {
     showMenuOptions();
-    String userInput = getSelectedOption();
+    String userInput = getUserInput();
     
     selectedOptionIndex = getOptionIndex(userInput);
     if(selectedOptionIndex == InvalidOptionIndex)

@@ -1,6 +1,6 @@
 #include "SerialUtils.h"
 
-String getSelectedOption() {
+String getUserInput() {
   String userInput = String();
   char newData;
 

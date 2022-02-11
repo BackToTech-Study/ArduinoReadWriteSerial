@@ -9,6 +9,6 @@ const char CommandTerminator = '\n';
 const int UserInputDelay = 20;
 const int MaxUserInputLength = 255;
 
-String getSelectedOption();
+String getUserInput();
 
 #endif
